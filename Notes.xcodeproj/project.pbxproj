@@ -12,6 +12,9 @@
 		6137D0C42ACD8B6300185A71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137D0C32ACD8B6300185A71 /* ViewController.swift */; };
 		6137D0C92ACD8B6300185A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137D0C82ACD8B6300185A71 /* Assets.xcassets */; };
 		6137D0CC2ACD8B6300185A71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6137D0CA2ACD8B6300185A71 /* LaunchScreen.storyboard */; };
+		C415BC2C2AD15FEE000BCC1B /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2B2AD15FEE000BCC1B /* NoteModel.swift */; };
+		C415BC2E2AD16009000BCC1B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2D2AD16009000BCC1B /* UserModel.swift */; };
+		C415BC302AD16029000BCC1B /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2F2AD16029000BCC1B /* ToDoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6137D0C82ACD8B6300185A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6137D0CB2ACD8B6300185A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6137D0CD2ACD8B6300185A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C415BC2B2AD15FEE000BCC1B /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		C415BC2D2AD16009000BCC1B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C415BC2F2AD16029000BCC1B /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,12 @@
 		6137D0BE2ACD8B6300185A71 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				C415BC352AD1615E000BCC1B /* Helpers */,
+				C415BC342AD16156000BCC1B /* HelpFlow */,
+				C415BC332AD16138000BCC1B /* AuthFlow */,
+				C415BC322AD1607B000BCC1B /* ProfileFlow */,
+				C415BC312AD16068000BCC1B /* NotesFlow */,
+				C415BC2A2AD15FCA000BCC1B /* Models */,
 				6137D0BF2ACD8B6300185A71 /* AppDelegate.swift */,
 				6137D0C12ACD8B6300185A71 /* SceneDelegate.swift */,
 				6137D0C32ACD8B6300185A71 /* ViewController.swift */,
@@ -62,6 +74,51 @@
 				6137D0CD2ACD8B6300185A71 /* Info.plist */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		C415BC2A2AD15FCA000BCC1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C415BC2B2AD15FEE000BCC1B /* NoteModel.swift */,
+				C415BC2F2AD16029000BCC1B /* ToDoModel.swift */,
+				C415BC2D2AD16009000BCC1B /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C415BC312AD16068000BCC1B /* NotesFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NotesFlow;
+			sourceTree = "<group>";
+		};
+		C415BC322AD1607B000BCC1B /* ProfileFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileFlow;
+			sourceTree = "<group>";
+		};
+		C415BC332AD16138000BCC1B /* AuthFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AuthFlow;
+			sourceTree = "<group>";
+		};
+		C415BC342AD16156000BCC1B /* HelpFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelpFlow;
+			sourceTree = "<group>";
+		};
+		C415BC352AD1615E000BCC1B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6137D0C42ACD8B6300185A71 /* ViewController.swift in Sources */,
+				C415BC2C2AD15FEE000BCC1B /* NoteModel.swift in Sources */,
 				6137D0C02ACD8B6300185A71 /* AppDelegate.swift in Sources */,
+				C415BC2E2AD16009000BCC1B /* UserModel.swift in Sources */,
 				6137D0C22ACD8B6300185A71 /* SceneDelegate.swift in Sources */,
+				C415BC302AD16029000BCC1B /* ToDoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

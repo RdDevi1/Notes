@@ -15,6 +15,11 @@
 		C415BC2C2AD15FEE000BCC1B /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2B2AD15FEE000BCC1B /* NoteModel.swift */; };
 		C415BC2E2AD16009000BCC1B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2D2AD16009000BCC1B /* UserModel.swift */; };
 		C415BC302AD16029000BCC1B /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2F2AD16029000BCC1B /* ToDoModel.swift */; };
+		C415BC3E2AD1CF46000BCC1B /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC3D2AD1CF46000BCC1B /* NotesListViewController.swift */; };
+		C415BC402AD1D01B000BCC1B /* NotesListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC3F2AD1D01B000BCC1B /* NotesListInteractor.swift */; };
+		C415BC422AD1D07B000BCC1B /* NotesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC412AD1D07B000BCC1B /* NotesListPresenter.swift */; };
+		C415BC442AD1D0BD000BCC1B /* NotesListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC432AD1D0BD000BCC1B /* NotesListRouter.swift */; };
+		C415BC462AD1D0E2000BCC1B /* NotesListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC452AD1D0E2000BCC1B /* NotesListProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		C415BC2B2AD15FEE000BCC1B /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 		C415BC2D2AD16009000BCC1B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		C415BC2F2AD16029000BCC1B /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
+		C415BC3D2AD1CF46000BCC1B /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotesListViewController.swift; path = Notes/Models/NotesListViewController.swift; sourceTree = SOURCE_ROOT; };
+		C415BC3F2AD1D01B000BCC1B /* NotesListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotesListInteractor.swift; path = Notes/Models/NotesListInteractor.swift; sourceTree = SOURCE_ROOT; };
+		C415BC412AD1D07B000BCC1B /* NotesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListPresenter.swift; sourceTree = "<group>"; };
+		C415BC432AD1D0BD000BCC1B /* NotesListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListRouter.swift; sourceTree = "<group>"; };
+		C415BC452AD1D0E2000BCC1B /* NotesListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,8 @@
 		C415BC312AD16068000BCC1B /* NotesFlow */ = {
 			isa = PBXGroup;
 			children = (
+				C415BC362AD1CE03000BCC1B /* NotesList */,
+				C415BC372AD1CE13000BCC1B /* NoteDetail */,
 			);
 			path = NotesFlow;
 			sourceTree = "<group>";
@@ -119,6 +131,65 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C415BC362AD1CE03000BCC1B /* NotesList */ = {
+			isa = PBXGroup;
+			children = (
+				C415BC3C2AD1CF24000BCC1B /* Router */,
+				C415BC3B2AD1CF19000BCC1B /* Protocols */,
+				C415BC3A2AD1CEDD000BCC1B /* Interactor */,
+				C415BC392AD1CEA8000BCC1B /* Presenter */,
+				C415BC382AD1CE9A000BCC1B /* View */,
+			);
+			path = NotesList;
+			sourceTree = "<group>";
+		};
+		C415BC372AD1CE13000BCC1B /* NoteDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NoteDetail;
+			sourceTree = "<group>";
+		};
+		C415BC382AD1CE9A000BCC1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C415BC3D2AD1CF46000BCC1B /* NotesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C415BC392AD1CEA8000BCC1B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C415BC412AD1D07B000BCC1B /* NotesListPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		C415BC3A2AD1CEDD000BCC1B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C415BC3F2AD1D01B000BCC1B /* NotesListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C415BC3B2AD1CF19000BCC1B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C415BC452AD1D0E2000BCC1B /* NotesListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C415BC3C2AD1CF24000BCC1B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C415BC432AD1D0BD000BCC1B /* NotesListRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C415BC422AD1D07B000BCC1B /* NotesListPresenter.swift in Sources */,
+				C415BC3E2AD1CF46000BCC1B /* NotesListViewController.swift in Sources */,
+				C415BC442AD1D0BD000BCC1B /* NotesListRouter.swift in Sources */,
 				6137D0C42ACD8B6300185A71 /* ViewController.swift in Sources */,
 				C415BC2C2AD15FEE000BCC1B /* NoteModel.swift in Sources */,
 				6137D0C02ACD8B6300185A71 /* AppDelegate.swift in Sources */,
+				C415BC462AD1D0E2000BCC1B /* NotesListProtocols.swift in Sources */,
+				C415BC402AD1D01B000BCC1B /* NotesListInteractor.swift in Sources */,
 				C415BC2E2AD16009000BCC1B /* UserModel.swift in Sources */,
 				6137D0C22ACD8B6300185A71 /* SceneDelegate.swift in Sources */,
 				C415BC302AD16029000BCC1B /* ToDoModel.swift in Sources */,

@@ -7,7 +7,15 @@
 
 import Foundation
 
-final class NotesListInteractor {
+final class NotesListInteractor: NotesListInteractorProtocol {
+    // MARK: - Properties
+    var presenter: NotesListPresenterProtocol?
+    
+    // MARK: - Layout methods
+    func retrieveNotes() {
+        
+    }
+    
     
 }
 

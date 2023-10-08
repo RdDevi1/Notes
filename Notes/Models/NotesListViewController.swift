@@ -31,6 +31,7 @@ final class NotesListViewController: UIViewController {
     private lazy var toggleViewButton: UIButton = {
         let button = UIButton(type: .system)
         button.setImage(UIImage(systemName: "square.grid.2x2"), for: .normal)
+//        button.setImage(UIImage(systemName: "rectangle.grid.1x2.fill"), for: .normal)
         button.tintColor = .black
         button.addTarget(self, action: #selector(didTapToggleViewButton), for: .touchUpInside)
         return button
@@ -77,7 +78,10 @@ final class NotesListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        presenter?.viewWillAppear()
     }
     
     // MARK: - Actions

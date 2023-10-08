@@ -12,11 +12,15 @@ protocol NotesListViewProtocol {
 }
 
 protocol NotesListPresenterProtocol {
+    var view: NotesListViewProtocol? { get set }
+    var interactor: NotesListInteractorProtocol? { get set }
+    var router: NotesListRouterProtocol? { get set }
     
+    func viewWillAppear()
 }
 
 protocol NotesListInteractorProtocol {
-    
+    func retrieveNotes()
 }
 
 protocol NotesListRouterProtocol {

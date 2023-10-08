@@ -9,5 +9,11 @@ import Foundation
 
 struct ToDoModel {
     var title: String
+    var date: Date
+    var items: [ToDoItem]
+}
+
+struct ToDoItem {
+    var text: String
     var isDone: Bool
 }

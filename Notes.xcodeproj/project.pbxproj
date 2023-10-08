@@ -64,11 +64,11 @@
 		6137D0BE2ACD8B6300185A71 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
-				C415BC352AD1615E000BCC1B /* Helpers */,
-				C415BC342AD16156000BCC1B /* HelpFlow */,
-				C415BC332AD16138000BCC1B /* AuthFlow */,
-				C415BC322AD1607B000BCC1B /* ProfileFlow */,
-				C415BC312AD16068000BCC1B /* NotesFlow */,
+				E25A557E2AD2FC0700F2A6C7 /* NotesFlow */,
+				E25A557D2AD2FBFE00F2A6C7 /* ProfileFlow */,
+				E25A557C2AD2FBF700F2A6C7 /* AuthFlow */,
+				E25A557B2AD2FBEE00F2A6C7 /* HelpFlow */,
+				E25A557A2AD2FBE400F2A6C7 /* Helpers */,
 				C415BC2A2AD15FCA000BCC1B /* Models */,
 				6137D0BF2ACD8B6300185A71 /* AppDelegate.swift */,
 				6137D0C12ACD8B6300185A71 /* SceneDelegate.swift */,
@@ -76,8 +76,6 @@
 				6137D0C82ACD8B6300185A71 /* Assets.xcassets */,
 				6137D0CA2ACD8B6300185A71 /* LaunchScreen.storyboard */,
 				6137D0CD2ACD8B6300185A71 /* Info.plist */,
-				E25A55762AD2F69400F2A6C7 /* UIColor + Ext.swift */,
-				E25A55782AD2F85700F2A6C7 /* UIImage + Ext.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -92,39 +90,41 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		C415BC312AD16068000BCC1B /* NotesFlow */ = {
+		E25A557A2AD2FBE400F2A6C7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E25A55762AD2F69400F2A6C7 /* UIColor + Ext.swift */,
+				E25A55782AD2F85700F2A6C7 /* UIImage + Ext.swift */,
 			);
-			path = NotesFlow;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
-		C415BC322AD1607B000BCC1B /* ProfileFlow */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ProfileFlow;
-			sourceTree = "<group>";
-		};
-		C415BC332AD16138000BCC1B /* AuthFlow */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AuthFlow;
-			sourceTree = "<group>";
-		};
-		C415BC342AD16156000BCC1B /* HelpFlow */ = {
+		E25A557B2AD2FBEE00F2A6C7 /* HelpFlow */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = HelpFlow;
 			sourceTree = "<group>";
 		};
-		C415BC352AD1615E000BCC1B /* Helpers */ = {
+		E25A557C2AD2FBF700F2A6C7 /* AuthFlow */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Helpers;
+			path = AuthFlow;
+			sourceTree = "<group>";
+		};
+		E25A557D2AD2FBFE00F2A6C7 /* ProfileFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileFlow;
+			sourceTree = "<group>";
+		};
+		E25A557E2AD2FC0700F2A6C7 /* NotesFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NotesFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

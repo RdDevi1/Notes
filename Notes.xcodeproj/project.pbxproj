@@ -15,6 +15,8 @@
 		C415BC2C2AD15FEE000BCC1B /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2B2AD15FEE000BCC1B /* NoteModel.swift */; };
 		C415BC2E2AD16009000BCC1B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2D2AD16009000BCC1B /* UserModel.swift */; };
 		C415BC302AD16029000BCC1B /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415BC2F2AD16029000BCC1B /* ToDoModel.swift */; };
+		E25A55772AD2F69400F2A6C7 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25A55762AD2F69400F2A6C7 /* UIColor + Ext.swift */; };
+		E25A55792AD2F85700F2A6C7 /* UIImage + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25A55782AD2F85700F2A6C7 /* UIImage + Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		C415BC2B2AD15FEE000BCC1B /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 		C415BC2D2AD16009000BCC1B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		C415BC2F2AD16029000BCC1B /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
+		E25A55762AD2F69400F2A6C7 /* UIColor + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
+		E25A55782AD2F85700F2A6C7 /* UIImage + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				6137D0C82ACD8B6300185A71 /* Assets.xcassets */,
 				6137D0CA2ACD8B6300185A71 /* LaunchScreen.storyboard */,
 				6137D0CD2ACD8B6300185A71 /* Info.plist */,
+				E25A55762AD2F69400F2A6C7 /* UIColor + Ext.swift */,
+				E25A55782AD2F85700F2A6C7 /* UIImage + Ext.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -193,6 +199,8 @@
 			files = (
 				6137D0C42ACD8B6300185A71 /* ViewController.swift in Sources */,
 				C415BC2C2AD15FEE000BCC1B /* NoteModel.swift in Sources */,
+				E25A55772AD2F69400F2A6C7 /* UIColor + Ext.swift in Sources */,
+				E25A55792AD2F85700F2A6C7 /* UIImage + Ext.swift in Sources */,
 				6137D0C02ACD8B6300185A71 /* AppDelegate.swift in Sources */,
 				C415BC2E2AD16009000BCC1B /* UserModel.swift in Sources */,
 				6137D0C22ACD8B6300185A71 /* SceneDelegate.swift in Sources */,

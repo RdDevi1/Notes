@@ -8,7 +8,7 @@
 import Foundation
 
 protocol NotesListViewProtocol {
-    
+    var presenter: NotesListPresenterProtocol? { get set }
 }
 
 protocol NotesListPresenterProtocol {
